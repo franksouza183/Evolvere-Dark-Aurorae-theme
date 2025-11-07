@@ -1,0 +1,31 @@
+<svg width="24" height="24" version="1.0" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<defs>
+		<style id="current-color-scheme" type="text/css">
+			.ColorScheme-Text {
+				color: #ffffff;
+			}
+
+			.ColorScheme-Highlight {
+				color: #1768bf;
+			}
+
+			.ColorScheme-HighlightedText {
+				color: #ffffff;
+			}
+		</style>
+	</defs>
+	<g id="active-center">
+		<rect width="24" height="24" style="opacity:0" />
+		<g class="ColorScheme-Text">
+			<path id="a" d="m11.896484 5.9765625c-.441749.010722-.885953.0946015-1.314453.2558594-1.566898.5897394-2.6074216 2.0933798-2.6074216 3.7675781-.0004326.30437.2464115.551211.5507812.550781.3035997-.000646.5492581-.247181.5488282-.550781 0-1.2197988.7529625-2.3067286 1.8945312-2.7363281 1.141599-.4296696 2.42617-.1084854 3.230469.8085937.804259.9170791.955859 2.2309414.380859 3.3066404-.574999 1.075799-1.749685 1.680684-2.958984 1.521485-.3009-.03973-.577118.171796-.617188.472656-.03973.3009.171797.577117.472656.617187 1.659899.21853 3.283067-.615278 4.072266-2.091796.789219-1.476499.580452-3.2940361-.523437-4.5527349-.55194-.6293693-1.269676-1.053447-2.046875-1.2480469-.29143-.072998-.590489-.1142037-.892578-.1210937-.06294-.00144-.126354-.00153-.189454 0zm.103516 9.0488285c-.552285 0-1 .447715-1 1s.447715 1 1 1 1-.447715 1-1-.447715-1-1-1z" style="fill:currentColor" />
+		</g>
+	</g>
+	<use id="inactive-center" transform="translate(27)" xlink:href="#active-center" />
+	<g id="hover-center" transform="translate(54)">
+		<rect class="ColorScheme-Highlight" width="24" height="24" style="fill:currentColor" />
+		<use class="ColorScheme-HighlightedText" xlink:href="#a" />
+	</g>
+	<use id="pressed-center" transform="translate(27)" xlink:href="#hover-center" />
+	<use id="deactivated-center" transform="translate(108)" opacity=".3" xlink:href="#active-center" />
+	<use id="deactivated-inactive-center" transform="translate(135)" opacity=".3" xlink:href="#active-center" />
+</svg>

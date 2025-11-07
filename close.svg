@@ -1,0 +1,31 @@
+<svg width="24" height="24" version="1.0" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<defs>
+		<style id="current-color-scheme" type="text/css">
+			.ColorScheme-Text {
+				color: #ffffff;
+			}
+
+			.ColorScheme-NegativeText {
+				color: #f03489;
+			}
+
+			.ColorScheme-HighlightedText {
+				color: #ffffff;
+			}
+		</style>
+	</defs>
+	<g id="active-center">
+		<rect width="24" height="24" style="opacity:0" />
+		<g class="ColorScheme-Text">
+			<path id="a" d="m8.14691 8.1469c-.19587.1959-.19588.5112 0 .7071l3.18198 3.182-3.18198 3.182c-.19583.1958-.19586.5112 0 .7071.19587.1959.51123.1959.70711 0l3.18198-3.182 3.18198 3.182c.19588.1959.51124.1959.70711 0s.19588-.5112 0-.7071l-3.18198-3.182 3.18198-3.182c.19583-.1958.19587-.5112 0-.7071s-.51123-.1959-.70711 0l-3.18198 3.182-3.18198-3.182c-.19588-.1959-.51124-.1959-.70711 0z" style="fill:currentColor" />
+		</g>
+	</g>
+	<use id="inactive-center" transform="translate(27)" xlink:href="#active-center" />
+	<g id="hover-center" transform="translate(54)">
+		<rect class="ColorScheme-NegativeText" width="24" height="24" style="fill:currentColor" />
+		<use class="ColorScheme-HighlightedText" xlink:href="#a" />
+	</g>
+	<use id="pressed-center" transform="translate(27)" xlink:href="#hover-center" />
+	<use id="deactivated-center" transform="translate(108)" opacity=".3" xlink:href="#active-center" />
+	<use id="deactivated-inactive-center" transform="translate(135)" opacity=".3" xlink:href="#active-center" />
+</svg>
